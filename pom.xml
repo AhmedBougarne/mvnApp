@@ -61,8 +61,8 @@
           <artifactId>maven-war-plugin</artifactId>   
           <version>3.2.3</version> 
           <configuration>
-				    <failOnMissingWebXml>false</failOnMissingWebXml>
-			    </configuration>
+		<failOnMissingWebXml>false</failOnMissingWebXml>
+          </configuration>
         </plugin>
         <plugin>
           <artifactId>maven-deploy-plugin</artifactId>
