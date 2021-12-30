@@ -5,11 +5,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.mycompany.app</groupId>
-  <artifactId>AtelierGL</artifactId>
+  <artifactId>mvnApp</artifactId>
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
 
-  <name>my-app</name>
+  <name>AtelierGL</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
