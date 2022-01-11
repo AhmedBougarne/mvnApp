@@ -1,6 +1,6 @@
 pipeline {
    environment {
-      registry = "dockerhub13/atelier6"
+      registry = "dockerhub13/dock_img"
       registryCredential = 'dockerhub13'
       dockerImage = ''
   }
