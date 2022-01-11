@@ -77,6 +77,6 @@
         </plugin>
       </plugins>
     </pluginManagement>
-    <finalName>mvnApp</finalName>
+    <finalName>mvnApp-1.0-SNAPSHOT</finalName>
   </build>
 </project>
