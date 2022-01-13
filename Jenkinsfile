@@ -13,18 +13,12 @@ pipeline {
       }
      stage('Building image') {
           steps{
-             script {
-                dockerImage = docker.build registry + ":$BUILD_NUMBER"
-             }
+             sh 'docker build -t dockerhub1729/atelier_GL:latest .'
           }
      }
      stage('Deploy Image') {
           steps{
-             script {
-                  docker.withRegistry( '', registryCredential ) {
-                        dockerImage.push()
-                  }
-             }
+             sh 'docker push dockerhub1729/atelier_GL:latest'
           }
      }
   }
