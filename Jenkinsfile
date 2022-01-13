@@ -1,14 +1,14 @@
 pipeline {
    environment {
-      registry = "dockerhub13/dock_img"
-      registryCredential = 'dockerhub13'
+      registry = "dockerhub1729/atelierGL"
+      registryCredential = 'dockerhub1729'
       dockerImage = ''
   }
   agent any
   stages {
       stage('Build') {
           steps {
-             sh 'mvn package'
+             sh 'mvn clean install package'
           }
       }
      stage('Building image') {
